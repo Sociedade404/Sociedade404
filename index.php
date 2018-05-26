@@ -1,6 +1,8 @@
-<?php 
+<?php
 
-require_once("vendor/autoload.php");
+require("vendor/autoload.php");
+
+
 
 $app = new \Slim\Slim();
 
@@ -8,10 +10,16 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$page = new Sociedade404\loadPage();
+
+	$page->setTpl("index");
 
 });
 
-$app->run();
+$app->get('/home', function(){
 
- ?>
+	$page = new $loadPage();
+	$page->setTpl("home");
+});
+
+$app->run();
