@@ -23,13 +23,13 @@
 
 			<ul>
 				<a href="home"><li>Home</li></a>
-				<a href=""><li>Sobre</li></a>
-				<a href=""><li>Serviços</li></a>
-				<a href=""><li>Produtos</li></a>
-				<a href=""><li>Termos</li></a>
-				<a href=""><li>Parceiros</li></a>
-				<a href=""><li>Curiosidades</li></a>
-				<a href=""><li>Contato</li></a>
+				<a href="sobre"><li>Sobre</li></a>
+				<a href="servicos"><li>Serviços</li></a>
+				<a href="produtos"><li>Produtos</li></a>
+				<a href="termosDeUso"><li>Termos</li></a>
+				<a href="parceiros"><li>Parceiros</li></a>
+				<a href="curiosidades"><li>Curiosidades</li></a>
+				<a href="contato"><li>Contato</li></a>
 			</ul>
 			
 		</nav><!-- /nav -->
