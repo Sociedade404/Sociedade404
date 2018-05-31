@@ -24,7 +24,7 @@ class Page
 
 		$config = array(
 			"tpl_dir"   => $_SERVER['DOCUMENT_ROOT'].$tpl_dir,
-			"dir_cache" => $_SERVER['DOCUMENT_ROOT']."/cache/",
+			"dir_cache" => $_SERVER['DOCUMENT_ROOT']."../cache/",
 			 "debug"    => false
 		);
 

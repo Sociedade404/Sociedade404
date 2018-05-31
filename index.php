@@ -1,3 +1,3 @@
 <?php
 
-include "PageSite.php";
+require_once("PageSite.php");
