@@ -1,0 +1,65 @@
+.logo{
+	width:30%;
+	padding:20px;
+	margin-left:20px;
+}
+
+.liLogo{
+	padding:0;
+	padding-left:10px;
+	border-left:4px solid rgba(30, 144, 255,1.0);
+}
+
+.liLogo:hover{
+	padding:0;
+	padding-left:10px;
+	border-left:4px solid rgba(30, 144, 255,1.0);
+}
+
+.menu-link{
+	color:rgba(255, 255, 255, 1.0);
+	font-family: "Open Sans", sans-serif;
+}
+
+.menu-link:hover{
+	color:rgba(30, 144, 255,1.0);
+}
+
+.headerMenu{
+	display: flex;
+	flex-direction: row;
+	width:max-width:100%;
+	background:rgba(53, 59, 72,1.0);
+	
+}
+
+.ul{
+  position: absolute;
+  top: 5;
+  right: 20px;
+  z-index: 99;
+}
+
+.li{
+  padding:10px;
+  display:inline-block;
+  position: relative;
+  white-space: nowrap;
+
+}
+
+.li:hover{
+
+	
+}
+
+.a{
+  color: rgba(255, 255, 255,1.0);
+  transition: 0.5s;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.a:hover{
+
+}

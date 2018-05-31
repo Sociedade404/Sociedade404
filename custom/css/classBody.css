@@ -1,0 +1,48 @@
+.containerBox{
+
+	min-width:100%;
+	padding-top:80px;
+	padding-bottom:40px;
+}
+
+.conteudoSite{
+
+	width:100%;
+	padding-top:50px;
+}
+
+.containerParceiros, .containerSobre, 
+.containerTermosUso, .containerPoliticaPrivacidade, 
+.containerSeguranca, .containerDivulgue{
+	width:95%;
+	padding:10px;
+}
+
+
+/*##### Página Contato #####*/
+.contato{
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+}
+
+.textContato{
+	width:58%;
+	padding:20px;
+	margin-right:0px;
+	-webkit-box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tituloTextContato{
+	text-align:left;
+}
+
+.tituloForm{
+	margin-bottom:40px;
+	font-size:30px;
+}
+
+.formContact{
+	-webkit-box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.3);
+}
