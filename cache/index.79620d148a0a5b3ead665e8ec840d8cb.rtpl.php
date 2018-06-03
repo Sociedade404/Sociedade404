@@ -1,4 +1,4 @@
-
+<?php if(!class_exists('Rain\Tpl')){exit;}?>
   <!-- Left side column. contains the logo and sidebar -->
   <aside class="main-sidebar">
 
